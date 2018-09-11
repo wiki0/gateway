@@ -1,6 +1,6 @@
 FROM registry.ap-southeast-1.aliyuncs.com/wiki0/java:8
 VOLUME /tmp
-ADD ./target/docker-weixin-0.0.1-SNAPSHOT.jar app.jar
+ADD ./target/siki-gateway-2.0.2.RELEASE.jar app.jar
 #RUN bash -c 'touch /app.jar'ls
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 

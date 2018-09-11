@@ -1,6 +1,6 @@
 target/*
-!/target/docker-weixin-0.0.1-SNAPSHOT.jar
-!/target/docker-weixin-0.0.1-SNAPSHOT.war
+!/target/siki-gateway-2.0.2.RELEASE.jar
+!/target/siki-gateway-2.0.2.RELEASE.war
 ### STS ###
 .apt_generated
 .classpath

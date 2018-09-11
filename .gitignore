@@ -1,0 +1,26 @@
+target/*
+!/target/docker-weixin-0.0.1-SNAPSHOT.jar
+!/target/docker-weixin-0.0.1-SNAPSHOT.war
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.DS_Store
+
